@@ -1,0 +1,75 @@
+@media only screen and (max-width: 400px) {
+    body{
+        background: url("1.webp")no-repeat center fixed ;
+        background-size: cover;
+        opacity: 1;
+    }
+    .container{
+        max-width: 80%;
+        /* background-color: rgb(255, 0, 242); */
+        padding: 34px;
+        /* margin: 23px; */
+        margin: auto;
+    }
+    .container h1, p{
+        text-align: center;
+        color: white;
+    }
+    h1{
+        text-shadow: rgb(0, 17, 255) 1px 0 10px;
+        font-size: 45px;
+        font-family: 'Sriracha', cursive;
+    }
+    p{
+        font-size: 17px;
+        font-family: 'Sriracha', cursive;
+    }
+    h3{
+        text-shadow: 1px 1px 2px rgb(255, 230, 0);
+        color: rgb(0, 0, 0);
+        text-align: center;
+        margin: 15px;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;  
+    }
+    h3 u{
+        color: white;
+    }
+    .container input{
+        background-color: rgb(223, 221, 223);
+        display: block;
+        width: 150%;
+        margin: 11px 0;
+        padding: 7px;
+        font-size: 16px;
+        border: 2px solid black;
+        border-radius: 6px;
+        outline: none; 
+    }
+    form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .btn{
+        color: white;
+        background-color: rgb(0, 30, 128);
+        padding: 7px 137px 7px 137px;
+        font-size: 20px;
+        border: 2px solid white;
+        border-radius: 7px;
+        cursor: pointer;
+        margin-top: 12px;
+    }
+    .submitMsg{
+        color: rgb(245, 207, 3);
+        
+    }
+    .container .image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
